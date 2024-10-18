@@ -7,7 +7,7 @@ async def all_tasks():
     pass
 
 @router.get("/task_id")
-async def get_task():
+async def task_by_id():
     pass
 
 @router.post ("/create")
