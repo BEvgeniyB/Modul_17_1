@@ -2,13 +2,12 @@ from fastapi import APIRouter
 
 router = APIRouter(prefix="/task",tags=["task"])
 
+@router.get("/task")
+async def all_tasks():
+    pass
 
 @router.get("/task_id")
 async def get_task():
-    pass
-
-@router.get("/task")
-async def all_tasks():
     pass
 
 @router.post ("/create")
